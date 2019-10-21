@@ -2309,25 +2309,25 @@ input, select, textarea {
 				padding: 0 2em 0 2em;
 			} */
 
-		/* Icons */
+		/* Icons
 
 			ul.icons li a {
 				width: 1.75em;
 			}
-
-		/* Item */
+ */
+		/* Item
 
 			.item {
 				margin-bottom: 20px;
-			}
+			} */
 
-		/* Header */
+		/* Header
 
 			#header {
 				width: 20%;
-			}
+			} */
 
-			#logo .image {
+			/* #logo .image {
 				position: relative;
 				margin: 0 0 0.5em 0;
 			}
@@ -2336,9 +2336,9 @@ input, select, textarea {
 				font-size: 0.8em;
 				padding-top: 0.5em;
 				padding-bottom: 0.5em;
-			}
+			} */
 
-				#nav ul li a span {
+				/* #nav ul li a span {
 					padding-right: 2.25em;
 				}
 
@@ -2346,9 +2346,9 @@ input, select, textarea {
 						left: 100%;
 						margin-left: -1.25em;
 						line-height: 2.25em;
-					}
+					} */
 
-		/* Footer */
+		/* Footer
 
 			#footer {
 				margin-left: 20%;
@@ -2356,11 +2356,11 @@ input, select, textarea {
 
 		/* Main */
 
-			#main {
+			/* #main {
 				margin-left: 20%;
 			}
 
-	}
+	} */ */
 
 /* Narrower */
 

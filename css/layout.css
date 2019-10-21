@@ -889,68 +889,66 @@ button:active,
   background-color: #e8edec;
 }
 
-/* Wide */
+/* Mobile */
 
-@media screen and (min-width: 961px) and (max-width: 1880px) {
+@media screen and (max-width: 736px) {
 
   /* Basic */
+  #header {
+    width: 20%;
+    display: block;
+  }
 
   body,
   input,
   textarea,
   select {
-    font-size: 17pt;
+    font-size: 14pt;
   }
 
-  /* Header */
-
-  #header {
-    width: 300px;
+  h2 {
+    font-size: 1.5em;
+    letter-spacing: 0;
+    font-weight: 300;
   }
 
-  /* Footer */
-
-  #footer {
-    margin-left: 300px;
+  .container {
+    padding: 0 15px 0 15px;
   }
 
-  /* Main */
+  /* List */
 
-  #main {
-    margin-left: 300px;
+  ul.icons a {
+    width: 2em;
+    font-size: 1.25em;
   }
-
-}
-
-/* Normal */
-
-@media screen and (min-width: 961px) and (max-width: 1620px) {
 
   /* Main */
 
   #main>section {
-    padding: 3em 0;
+    padding: 2em 0;
   }
 
   #main section.cover {
-    padding: 5em 0;
+    padding: 4em 0em;
+  }
+
+  #main section.cover header {
+    padding: 0 1em;
+  }
+
+  /* Footer */
+
+  #footer .copyright li {
+    display: block;
+    line-height: 1.25em;
+    border: 0;
+    padding: 0;
+    margin: 1em 0 0 0;
+  }
+
+  #footer .copyright li:first-child {
+    margin-top: 0;
   }
 
 }
-
-/* Narrow */
-
-@media screen and (min-width: 961px) and (max-width: 1320px) {
-
-  /* Basic */
-
-  body,
-  input,
-  textarea,
-  select {
-    font-size: 16pt;
-  }
-
-  .container {
-    padding: 0 2em 0 2em;
-  }
